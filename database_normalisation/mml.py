@@ -200,7 +200,7 @@ def mml(name: str, attribute_instances: list[int], tables: list[Table]):
         ),
         total_message_length(attribute_instances=attribute_instances, tables=tables),
     )
-
+    
 
 if __name__ == "__main__":
     test_1nf()
